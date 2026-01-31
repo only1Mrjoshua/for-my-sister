@@ -56,83 +56,33 @@ let isSoundEnabled = true;
 // ================= INITIALIZATION =================
 function init() {
     CONFIG.typewriterMessages = [
-        `Happy New Month, ${CONFIG.sisterName} ✨`,
-        "May this February bring you endless blessings,",
-        "peace that settles deep in your soul,",
-        "and victories that make your heart dance.",
-        "You deserve every beautiful moment coming your way 💫",
+    `Happy New Month, ${CONFIG.sisterName} ✨`,
+    "May February be gentle with you,",
+    "full of peace and quiet wins 💫",
 
-        "First of all...",
-        "Happy Sunday, sis! 🌸",
-        "I hope today wraps you in calm,",
-        "gentle moments,",
-        "and sweet peace.",
-        "May your heart rest today,",
-        "and may you feel God's presence closely.",
+    "Happy Sunday, sis 🌸",
+    "May today bring rest to your heart",
+    "and remind you that God is near.",
 
-        "I pray this month covers you with grace.",
-        "That every step you take is divinely guided.",
-        "That doors meant for you open wide,",
-        "and doors not for you close quietly.",
+    "I pray this month guides your steps,",
+    "opens the right doors,",
+    "and brings you strength and joy.",
 
-        "I pray for peace over your mind,",
-        "strength in moments you feel weak,",
-        "and joy that finds you unexpectedly.",
+    "On busy or heavy days,",
+    "please remember:",
+    "you are enough.",
+    "You are strong.",
+    "You are loved.",
 
-        "May God protect you in your going out",
-        "and your coming in.",
-        "May He uplift you when you're down,",
-        "and surround you with His love...",
-        "and mine too 💝",
+    "Thank you for being you,",
+    "for being my sister,",
+    "and my blessing.",
 
-        "I know life gets busy,",
-        "and some days feel heavy.",
-        "But please remember:",
-
-        "You're stronger than you think.",
-        "Braver than you believe.",
-        "And more capable than you imagine.",
-
-        "Even on tired days,",
-        "or uncertain days,",
-        "or quiet, overwhelming days...",
-        "you are still wonderful.",
-
-        "I hope this month reminds you",
-        "of how valuable you are.",
-        "That you don't have to prove yourself",
-        "to be worthy of love.",
-
-        "Your heart, your laughter,",
-        "your dreams, your quiet moments...",
-        "all of you is precious.",
-
-        "If challenges come this month,",
-        "I pray they bring growth.",
-        "If tears come,",
-        "I pray they bring healing.",
-        "And if joy comes...",
-        "I pray it stays and multiplies.",
-
-        "Thank you for being you.",
-        "For being my sister.",
-        "For existing in this world.",
-
-        "This month,",
-        "and every month after...",
-        "I hope you feel deeply loved.",
-        "Truly seen.",
-        "And never alone.",
-
-        "Because you have me.",
-        "Always.",
-        "No matter what.",
-
-        "I'm here.",
-        "I see you.",
-        "I'm proud of you.",
-        "And I love you.",
-        "More than words can say 💕"
+    "This month and always,",
+    "you’re never alone.",
+    "You have me.",
+    "Always",
+    "and i love you sis 💕, more than words can say"
     ];
 
     CONFIG.celebrationMessage = `You're an incredible woman, and I'm blessed to call you my sister. May this month bring you closer to your dreams, fill your days with joy, and remind you of how loved you are. I'm always here for you, no matter what. I love you forever 💝`;
@@ -249,38 +199,32 @@ function createWishCards() {
 // ================= SISTER MESSAGE =================
 function displaySisterMessage() {
     const sisterMessages = [
-        "I want you to know how much I see you.",
-        "I see your strength, even when you feel weak.",
-        "I see your kindness, even when others don't appreciate it.",
-        "I see your hard work, even when no one notices.",
-        "I see your beautiful heart, even when you doubt yourself.",
+    "I want you to know that I truly see you.",
+    "Your strength, your kindness, your beautiful heart — I see it all.",
 
-        "I'm so proud of you.",
-        "Proud of the woman you're becoming.",
-        "Proud of how you handle challenges.",
-        "Proud of your big dreams and beautiful heart.",
+    "I’m so proud of the woman you’re becoming.",
+    "Proud of your resilience, your dreams, and your courage.",
 
-        "You are enough.",
-        "More than enough.",
-        "Exactly as you are.",
+    "You are enough.",
+    "More than enough.",
+    "Exactly as you are.",
 
-        "This month, remember:",
-        "Your journey is unique.",
-        "Your pace is perfect.",
-        "Your story is still being written.",
+    "This month, remember:",
+    "Your journey is yours.",
+    "Your pace is perfect.",
+    "Your story is still unfolding.",
 
-        "And through every chapter,",
-        "I'll always be here.",
-        "Cheering for you.",
-        "Believing in you.",
-        "Loving you.",
+    "No matter the chapter,",
+    "I’ll always be here",
+    "cheering for you,",
+    "believing in you,",
+    "loving you.",
 
-        "Because you're not just my sister.",
-        "You're my friend.",
-        "My blessing.",
-        "My answered prayer.",
+    "You’re not just my sister.",
+    "You’re my blessing.",
+    "My answered prayer.",
 
-        "I love you so much 💕"
+    "I love you sis 💕"
     ];
 
     elements.sisterMessage.innerHTML = '';
